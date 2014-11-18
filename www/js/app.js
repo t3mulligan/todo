@@ -58,7 +58,7 @@ angular.module('todo', ['ionic'])
         }
       };
 
-      // Called to select the given project
+      // Called to select the given test project
       $scope.selectProject = function(project, index) {
         $scope.activeProject = project;
         Projects.setLastActiveIndex(index);
